@@ -1,7 +1,6 @@
 # Python object -> Json serializer
 from rest_framework import serializers
-
-from drinks.models import Drink
+from drinks.Models.drink import Drink
 
 
 class DrinkSerializer(serializers.ModelSerializer):
